@@ -32,4 +32,11 @@
 `converted_files` 内のファイルをあとで使いたい場合はどこかに移動してからつぎの実行を行うようにする
 
 ## 今後の改修事項
-[【Pythonでexeファイル作成】pyinstallerで誰でも簡単に.pyを起動](https://cafe-mickey.com/python/python-exe/) を参考に、exeファイルに変換したい
+~~[【Pythonでexeファイル作成】pyinstallerで誰でも簡単に.pyを起動](https://cafe-mickey.com/python/python-exe/) を参考に、exeファイルに変換したい~~
+→ 反映済み
+
+仮想環境にexeファイル(と、変更元となるdocxファイルが入ったディレクトリ)を配置してexeファイルを実行したらちゃんと動く?これを検証する必要がある<br>
+(Pythonが入ってない)仮想環境の作り方がわからないので後回しにする<br>
+Windows Hyper-V はWindows Home Edition じゃ使えないみたい<br>
+VMWare はできそうだが、メモリに4GB以上は割かないと動かないみたいなのでこれではできない...<br>
+他にもコンテナとかDocker とかは聞いたことある。上記二つとは立ち位置が違うのかな? よくわかってない。<br>
